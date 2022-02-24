@@ -1,4 +1,4 @@
-package ru.netology.data;
+package netology.data;
 
 import lombok.SneakyThrows;
 import lombok.Value;

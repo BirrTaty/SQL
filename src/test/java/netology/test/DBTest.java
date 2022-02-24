@@ -1,16 +1,16 @@
-package ru.netology.test;
+package netology.test;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import ru.netology.data.DB;
-import ru.netology.data.DBUser;
-import ru.netology.page.LoginPage;
+import netology.data.DB;
+import netology.data.DBUser;
+import netology.page.LoginPage;
 
 import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ru.netology.data.DB.deleteCode;
+import static netology.data.DB.deleteCode;
 
 public class DBTest {
 
