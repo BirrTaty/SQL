@@ -10,4 +10,4 @@ services:
       - MYSQL_RANDOM_ROOT_PASSWORD=yes
       - MYSQL_DATABASE=app-db
       - MYSQL_USER=app
-      - MYSQL_PASSWORD=mypass
+      - MYSQL_PASSWORD=pass
